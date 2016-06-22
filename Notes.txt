@@ -1,0 +1,9 @@
+Notes: 
+The code has various parts each with different worst case speeds.  The prime generation portion 
+runs once per element in the sieve, which is of size n*ln(n) + n*ln(ln(n)), of which the first is 
+the dominating term so it is O(n*ln(n)).  However the table printing part runs in polynomial time 
+or O(n^2) as it prints out a table of size n+1 x n+1. Of these two terms, the n^2 term dominates
+and so the entire function is O(n^2) and would scale as such for any n.  
+
+Additionally, the space complexity is dominated by the space needed for the sieve, which when
+optimized is O((n*ln(n))/2 -3) which still simplifies to O(n*ln(n)).
