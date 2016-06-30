@@ -1,0 +1,11 @@
+I was asked to design, code, and test C++ satellite flight software for the thermal and power systems for a new 
+customer's satellite. On a previous program, this task had been the responsibility of a senior tech lead with 15+ 
+years experience, but due to personnel unavailability, I was asked to step up and take responsibility for 
+this task. On previous products, this software had bee hard to configure for different mission phases in the product 
+life cycle, leading to costly time delays in pre-launch ground testing, and during on-orbit missions. By working with the 
+thermal and power hardware tech leads, as well as software leads, I was able to implement a software solution 
+that integrated with the existing software platform and was highly reconfigurable. This ease of use saved time
+in the expensive space simulated ground testing which ran in the order of $1 million / day in test costs.  Additionally 
+this reconfigurability made on orbit operations smoother, saving time in what can be life or death situations 
+for the customer's product.
+  
